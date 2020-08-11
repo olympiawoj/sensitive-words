@@ -13,7 +13,7 @@
   },
   "babel": {
     "presets": [
-      "latest"
+      "@babel/preset-env"
     ]
   },
   "repository": {
@@ -38,5 +38,9 @@
     "jest": "^26.3.0",
     "np": "^6.4.0",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0"
   }
 }
