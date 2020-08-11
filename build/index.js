@@ -1,9 +1,8 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
-
-exports.default = function (content, words) {
-    return content.replace(new RegExp(words.join('|'), 'ig'), '***');
+var sensitiveWords = exports.sensitiveWords = function sensitiveWords(content, words) {
+  return content.replace(new RegExp(words.join('|'), 'ig'), '***');
 };

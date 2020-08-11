@@ -1,4 +1,4 @@
-import sensitiveWords from ".";
+import {sensitiveWords} from "./index";
 
 test("replaces blacklisted words with astericks", () => {
   expect(
